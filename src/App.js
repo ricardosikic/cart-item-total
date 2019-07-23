@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 export class Shopcart extends React.Component {
@@ -18,11 +17,12 @@ export class Shopcart extends React.Component {
               <div class="img-prod"></div>
               <h1>product</h1>
               <p>$ 4000</p>
+              <p>cantidad: 2</p>
               {/* componente hijo */}
               <button>+</button>
               <button>-</button>
 
-              <button>Añadir</button>
+              <button className="add">Añadir</button>
             </div>
           </section>
 

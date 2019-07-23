@@ -32,6 +32,11 @@ button {
   border-radius: 3px;
 }
 
+.add {
+  background: rgb(54, 54, 248);
+  float: right;
+}
+
 ul {
   height: 245px;
   overflow-x: auto;
