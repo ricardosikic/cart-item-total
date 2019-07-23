@@ -1,0 +1,67 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.inner {
+  width: 250px;
+  border: 1px solid lightgray;
+  padding: .5em;
+  border-radius: 5px;
+  box-shadow: 10px 11px 11px -6px rgba(0,0,0,0.29);
+}
+.prod h1, p {
+  padding-left: .2em;
+}
+
+.cart h1 {
+  padding-left: 1.6em;
+}
+
+.img-prod {
+  height: 200px;
+  width: 100%;
+  background: lightseagreen;
+}
+
+button {
+  margin-left: .2em;
+  color: #FFF;
+  background: rgb(35, 226, 60);
+  border: none;
+  padding: .5em .6em .6em .5em;
+  border-radius: 3px;
+}
+
+ul {
+  height: 245px;
+  overflow-x: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+section {
+  padding-top: .5em;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  grid-row-gap: 10px;
+}
+
+.product {
+  width: max-content;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    float: left;
+  }
+}
