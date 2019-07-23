@@ -50,6 +50,10 @@ section {
   padding-top: .5em;
 }
 
+.total {
+  padding-left: 3em;
+}
+
 
 .wrapper {
   display: grid;
